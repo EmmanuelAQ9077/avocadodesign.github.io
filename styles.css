@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Solway:wght@300;400;500;700;800&display=swap');
+.raleway-standard {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-standard {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.manrope-standard {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.manrope-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+/* .solway-light {
+  font-family: "Solway", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.solway-regular {
+  font-family: "Solway", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.solway-medium {
+  font-family: "Solway", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.solway-bold {
+  font-family: "Solway", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.solway-extrabold {
+  font-family: "Solway", serif;
+  font-weight: 800;
+  font-style: normal;
+} */
+
+/* Comments in CSS and JavaScript are made like this */
+body {
+    background-color: skyblue;
+    background-image: url(images/repeatingBg.png);
+}
+header {
+    font-family: cursive;
+    text-align: center;
+    background-color: burlywood;
+}
+p {
+    font-family: "Manrope", sans-serif; /* Font stack targets the top font and moves down the stack if the font is missing */
+    font-optical-sizing: auto;
+    font-weight: 500; /* 100-900, 400 = normal */
+    font-style: normal; /* None = No style or many style properties */
+    font-size: 1.2em; /* 1 em = 16px */
+    line-height: 1.5; /* Leading */
+    color: #FFFFFF; /* Colors can be in Hex codes, RGB, LAB */
+    /* font-variant: normal; /* small-caps */
+    /* text-transform: capitalize;
+    /* text-align: justify; /* None = Left */
+    /* letter-spacing; 0.08em; /* Tracking 0.05 = normal */
+    /* word-spacing: 0.05em;
+    text-indent: 1em;
+    width: 2em; */
+    text-shadow: 2px 2px 8px blue; /* Horz Vert Blur Radius Color */
+}
+footer {
+    background-color: burlywood;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 2px red dotted;
+}
+nav {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 0 20%;
+    text-align: center;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color:indianred;
+    text-decoration: none;
+}
+.p_new_funky_thing {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: crimson;
+    text-shadow: none;
+}
